@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 const root = resolve(process.argv[2] ?? '.');
 // This is the public payload contract, including the only redistributable artwork.
 const allowed = new Set([
-  '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', '.mcp.json',
+  '.gitattributes', '.codex-plugin/plugin.json', '.agents/plugins/marketplace.json', '.mcp.json',
   'README.md', 'LICENSE', 'package.json', 'SHA256SUMS.json', 'docs/RUNNING.md',
   'dist/server.mjs', 'dist/companion.mjs', 'dist/setup-helper.mjs', 'dist/cli.mjs',
   'dist/index.html', 'dist/THIRD_PARTY_NOTICES.md',
@@ -39,6 +39,7 @@ for (const [file, hash] of Object.entries(hashes)) {
   assert.equal(createHash('sha256').update(await readFile(join(root, file))).digest('hex'), hash, 'Checksum mismatch: ' + file);
 }
 const manifest = await json('.codex-plugin/plugin.json');
+assert.equal(await readFile(join(root, '.gitattributes'), 'utf8'), '* -text\n');
 assert.equal(manifest.name, 'strata');
 assert.equal((await json('package.json')).version, manifest.version);
 assert.ok(manifest.interface.shortDescription.length <= 30, 'Subtitle exceeds 30 characters');

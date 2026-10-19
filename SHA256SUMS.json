@@ -1,6 +1,7 @@
 {
   ".agents/plugins/marketplace.json": "145e73cc7ef14b464d6ecdaa0094f7af422de15036aad2e5b4857811ae1985c5",
   ".codex-plugin/plugin.json": "2a22d31063d3d24d8e0eb6b352de4cbedb3a1d94f622505aeeee57e2d21eb9e3",
+  ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
   ".mcp.json": "a1dc924884c38135036999de20b7e2b0d917a6dee3f9f0f2b49326bd29ff3766",
   "assets/strata-icon.svg": "9b32c117acd246d8c579ac27db0da75d42e71a8a8b6fe5c20a38dceb03eb4c83",
   "assets/strata-logo.svg": "2d9eca989ae525675300792415d09364006fd9c5eb20e798e253877a41f0b9d8",
@@ -19,7 +20,7 @@
   "scripts/run-plugin.cmd": "eeb61aced6ecf440ff7f3358bda695886680cdf3fe35877fa035b510b2885676",
   "scripts/setup-desktop.ps1": "987c2d6d6e810bd1d489a36486ae516a6f09320c98924b79bc4f64d59715ca7c",
   "scripts/start-connected.ps1": "3204ec6f0cad9f649e4139cfedd2f2755430808d1d0497a698f39de26c1ccc1c",
-  "scripts/verify-package.mjs": "a7124d023a2c746a97c1fe64cc61272504d4ee1de7db1009a8dc514589df98ac",
+  "scripts/verify-package.mjs": "b5f8faed6e17883a7743713c16946842c68363aafc7fdee82811d952fc766606",
   "skills/strata-theme/SKILL.md": "cecd9b2905b8730565f91e7838b00a4a58969fb7970b954be29640a4e8e3eed2",
   "themes/builtin/blue-hour.json": "485ae93307fcbb56d5f7ec59ced5ebd241388ef87130b2597e28c8bc7c59a3a5",
   "themes/builtin/paper-atlas/ARTWORK.md": "99fc256ea8016838157f5b8b4bbdb48e6ffe29a532acd25b2a0426cdbf28f5cc",
