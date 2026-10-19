@@ -1,0 +1,16 @@
+{
+  "id": "blue-hour",
+  "name": "Blue Hour",
+  "description": "雾蓝色工作空间，冷静的导航、清晰的阅读面与深蓝终端。",
+  "tokens": {
+    "canvas": "#d5dfec", "surface": "#dce6f3", "surfaceRaised": "#f2f6fc",
+    "text": "#213348", "muted": "#52667d", "accent": "#375f8d", "accentText": "#ffffff",
+    "border": "#a4b5c9", "focus": "#1f5e9f", "success": "#286642", "warning": "#80551c", "danger": "#a4374b", "info": "#285d8d",
+    "codeSurface": "#edf2f8", "terminalSurface": "#162331", "terminalText": "#e0ebf5",
+    "diffAddSurface": "#d9ecdf", "diffRemoveSurface": "#f0dbe0", "approvalSurface": "#ede4cc",
+    "shadowLow": "0 2px 8px #20344a16", "shadowHigh": "0 16px 36px #20344a28"
+  },
+  "materialGrammar": { "canvas": "matte-mist", "navigation": "cool-satin", "controls": "soft-enamel", "reading": "opaque-mist", "transient": "raised-frost" },
+  "compositionProfile": { "quietZones": ["conversation", "code", "composer", "settings", "terminal"] },
+  "metadata": { "license": "MIT", "author": "Strata contributors" }
+}

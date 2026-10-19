@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "strata": {
+      "command": "cmd.exe",
+      "args": ["/d", "/s", "/c", "call", "./scripts/run-plugin.cmd"],
+      "cwd": ".",
+      "env_vars": ["LOCALAPPDATA", "USERPROFILE", "PATH", "CODEX_HOME", "CODEX_MCP_NODE_PATH", "CODEX_ELECTRON_RESOURCES_PATH", "CODEX_ELECTRON_USER_DATA_PATH"],
+      "startup_timeout_sec": 20
+    }
+  }
+}

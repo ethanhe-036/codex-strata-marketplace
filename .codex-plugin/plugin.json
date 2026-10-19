@@ -1,0 +1,25 @@
+{
+  "name": "strata",
+  "version": "0.3.16-beta.1",
+  "description": "Local full-workspace themes for Codex Desktop on Windows.",
+  "author": {
+    "name": "Strata contributors"
+  },
+  "homepage": "https://github.com/ethanhe-036/codex-strata-marketplace",
+  "repository": "https://github.com/ethanhe-036/codex-strata-marketplace",
+  "license": "MIT",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Strata",
+    "composerIcon": "./assets/strata-icon.svg",
+    "logo": "./assets/strata-logo.svg",
+    "shortDescription": "Local themes for Codex",
+    "longDescription": "A local theme library and creator for Codex Desktop. Personal themes stay on your computer.",
+    "developerName": "Strata contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "interactive"
+    ]
+  }
+}

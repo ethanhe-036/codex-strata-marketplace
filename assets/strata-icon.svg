@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32" class="strata-icon" color="#315e69" aria-hidden="true">
+  <style>@media(prefers-color-scheme:dark){.strata-icon{color:#dbe7e9}}</style>
+  <path fill="currentColor" d="M16 2 30 8.5 16 15 2 8.5ZM2 13 16 19.5 30 13v4L16 23.5 2 17ZM2 21.5 16 28 30 21.5v3L16 31 2 24.5Z"/>
+</svg>

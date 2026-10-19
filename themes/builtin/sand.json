@@ -1,0 +1,20 @@
+{
+  "id": "sand",
+  "name": "Sand",
+  "description": "温暖的矿物色、棉纸阅读面与低调的铜色焦点。",
+  "variants": {
+    "light": {
+      "tokens": {
+        "canvas": "#ebe1c7", "surface": "#f6efdd", "surfaceRaised": "#fff9ec",
+        "text": "#3c3429", "muted": "#70604b", "accent": "#82542f", "accentText": "#fffaf2",
+        "border": "#bfb094", "focus": "#916039", "success": "#426b46", "warning": "#86601f", "danger": "#a03d3c", "info": "#38687a",
+        "codeSurface": "#efe5d0", "terminalSurface": "#252722", "terminalText": "#edeadf",
+        "diffAddSurface": "#e0ead2", "diffRemoveSurface": "#f1dcd1", "approvalSurface": "#eee0b9",
+        "shadowLow": "0 2px 8px #48341c16", "shadowHigh": "0 16px 36px #48341c26"
+      }
+    }
+  },
+  "materialGrammar": { "canvas": "cotton-paper", "navigation": "mineral-wash", "controls": "ceramic", "reading": "opaque-paper", "transient": "raised-paper" },
+  "compositionProfile": { "quietZones": ["conversation", "code", "composer", "settings", "terminal"] },
+  "metadata": { "license": "MIT", "author": "Strata contributors" }
+}

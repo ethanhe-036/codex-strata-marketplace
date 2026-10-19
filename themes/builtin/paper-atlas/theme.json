@@ -1,0 +1,19 @@
+{
+  "id": "paper-atlas",
+  "name": "Paper Atlas",
+  "description": "纸雕山地从工作空间边缘展开，中央留下安静的阅读峡谷。",
+  "tokens": {
+    "canvas": "#e6decd", "surface": "#f4efe4", "surfaceRaised": "#fcf8ed",
+    "text": "#293c45", "muted": "#596d74", "accent": "#466a79", "accentText": "#ffffff",
+    "border": "#a4afa9", "focus": "#32677e", "success": "#386946", "warning": "#856123", "danger": "#a3443a", "info": "#32637d",
+    "codeSurface": "#f3f0e8", "terminalSurface": "#172932", "terminalText": "#e8eee8",
+    "diffAddSurface": "#e1ead9", "diffRemoveSurface": "#efdbd6", "approvalSurface": "#eee3c8",
+    "shadowLow": "0 2px 8px #273d4616", "shadowHigh": "0 16px 36px #273d4628"
+  },
+  "art": { "file": "landscape.png", "focalPoint": "50% 50%", "provenance": "Generated using the built-in OpenAI image tool for Strata; no personal reference images or third-party characters.", "license": "Distributed with Strata under MIT to the extent applicable." },
+  "composition": { "mode": "continuous", "focusX": 50, "focusY": 50 },
+  "adjustments": { "artOpacity": 0.82, "materialOpacity": 0.76 },
+  "materialGrammar": { "canvas": "cotton-paper", "navigation": "layered-paper", "controls": "matte-mineral", "reading": "quiet-paper", "transient": "raised-paper" },
+  "compositionProfile": { "quietZones": ["conversation", "code", "composer", "settings", "terminal"], "artwork": { "workspaceQuietZone": { "x": 28, "y": 10, "width": 45, "height": 80 }, "focalZones": [{ "name": "lower-left", "x": 12, "y": 74 }, { "name": "upper-right", "x": 90, "y": 25 }] } },
+  "metadata": { "license": "MIT", "author": "Strata contributors" }
+}

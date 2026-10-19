@@ -1,0 +1,20 @@
+{
+  "name": "strata-marketplace",
+  "interface": {
+    "displayName": "Strata themes"
+  },
+  "plugins": [
+    {
+      "name": "strata",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
